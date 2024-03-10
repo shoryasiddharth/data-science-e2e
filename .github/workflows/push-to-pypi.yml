@@ -24,4 +24,8 @@ jobs:
     - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@v1.4.2
       with:
-        password: ${{ secrets.dse2e }}
+        password: pypi-7367c2d1-1468-45ee-9dfb-a36db2032bf8
+  deploy:
+    provider: pypi
+    username: __token__
+    password: pypi-7367c2d1-1468-45ee-9dfb-a36db2032bf8
