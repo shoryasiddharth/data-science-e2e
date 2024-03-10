@@ -2,7 +2,7 @@ from  setuptools import setup, find_packages
 
 setup(
     name='dse2e',
-    version='0.0.1',
+    version='0.0.2',
     description='A package which contains all functions which are required by a practisioneer to perform industry specific tasks will a single line of code (WIP)',
     packages=find_packages(),
     classifiers=[
